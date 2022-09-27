@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6PH3Xj6kk6j6XYw55ldQi+8H5aJn1Qn6euZ9wGeOVEzSa49/1bbuMIH8zDmxo0y1dKb/bgNNogP5+0O8ImlANA==",
+  "dgSpecHash": "rQSjVj3BW3m7qwxeZpTRVM0X5r4qw8hF7T7zDwqk+PlcQ27V8Ftp2nn2btqB8smXkmg0gPeCZEQZrZ1IFa9sBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Khrystyna Ivanyk\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Users\\Source\\Repos\\SpeedTestWritting\\SpeedTestWritting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Users\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\Users\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
+  ],
   "logs": []
 }
