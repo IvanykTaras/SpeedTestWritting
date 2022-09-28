@@ -18,20 +18,21 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="1">
-            <TextBox Margin="0,30,0,0" Height="150" IsReadOnly="True" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" MinLines="20" TextWrapping="Wrap"/>             
+            <TextBox x:Name="textBoxExample" Margin="0,30,0,0" Height="150" IsReadOnly="True" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" MinLines="20" TextWrapping="Wrap"/>             
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1">
-            <TextBox Margin="0,15,0,0" Height="150" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" TextWrapping="Wrap" MinLines="20"/>
+            <TextBox x:Name="textBoxInput" Margin="0,15,0,0" Height="150" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" TextWrapping="Wrap" MinLines="20"/>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
             <Button Content="Dark Mode" Margin="0,0,10,0"/>
             <Button Content="English" Margin="0,0,10,0"/>
-            <Button Content="Refresh" HorizontalAlignment="Right" Margin="130,0,0,0"/>              
+            <Button x:Name="statrTest" Content="Start" Background="ForestGreen" Margin="30,0,0,0" Click="statrTest_Click"/>
+            <Button x:Name="Refresh" Content="Refresh" HorizontalAlignment="Right" Margin="40,0,0,0" Click="Refresh_Click"/>              
             <Button Content="Exit" HorizontalAlignment="Right" Margin="10,0,0,0" Background="Red"/>            
         </StackPanel>
         <StackPanel Grid.Row="0" Grid.Column="2">
-            <Label></Label>
-            <ComboBox Padding="0,6,0,4" Margin="0,15,0,0">
+            <Label x:Name="labelTimer"></Label>
+            <ComboBox x:Name="timeChoice" Padding="0,6,0,4" Margin="0,15,0,0">
                 aada
                 adasd
                 adaad
