@@ -24,5 +24,19 @@ namespace SpeedTestWritting
         {
             InitializeComponent();
         }
+
+        private void statrTest_Click(object sender, RoutedEventArgs e)
+        {
+            
+            textBoxExample.Text = "Привет Тарас. Давай работай!";
+            
+        }
+
+        private void Refresh_Click(object sender, RoutedEventArgs e)
+        {
+            textBoxExample.Clear();
+            textBoxInput.Clear();             
+            
+        }
     }
 }

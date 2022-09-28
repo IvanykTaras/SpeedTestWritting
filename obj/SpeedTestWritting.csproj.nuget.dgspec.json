@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khrystyna Ivanyk\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj": {}
+    "C:\\Users\\Users\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khrystyna Ivanyk\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj": {
+    "C:\\Users\\Users\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khrystyna Ivanyk\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj",
+        "projectUniqueName": "C:\\Users\\Users\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj",
         "projectName": "SpeedTestWritting",
-        "projectPath": "C:\\Users\\Khrystyna Ivanyk\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj",
-        "packagesPath": "C:\\Users\\Khrystyna Ivanyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khrystyna Ivanyk\\source\\repos\\SpeedTestWritting\\obj\\",
+        "projectPath": "C:\\Users\\Users\\source\\repos\\SpeedTestWritting\\SpeedTestWritting.csproj",
+        "packagesPath": "C:\\Users\\Users\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Users\\source\\repos\\SpeedTestWritting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Khrystyna Ivanyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Users\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +44,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
